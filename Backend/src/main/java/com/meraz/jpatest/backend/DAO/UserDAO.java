@@ -1,6 +1,6 @@
-package com.meraz.jpatest.DAO;
+package com.meraz.jpatest.backend.DAO;
 
-import com.meraz.jpatest.model.DBUser;
+import com.meraz.jpatest.backend.model.DBUser;
 import org.springframework.data.repository.CrudRepository;
 
 import javax.transaction.Transactional;

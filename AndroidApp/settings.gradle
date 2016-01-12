@@ -1,0 +1,5 @@
+def commonProjectDir = file('../Common')
+def rootProjectDescriptor = settings.rootProject
+settings.createProjectDescriptor(rootProjectDescriptor, ':Common', commonProjectDir)
+//include ':Common'
+//project(':Common').projectDir = new File(settingsDir, '../Common')

@@ -1,7 +1,7 @@
-package com.meraz.jpatest.controller;
+package com.meraz.jpatest.controller.backend;
 
-import com.meraz.jpatest.DAO.UserDAO;
-import com.meraz.jpatest.model.DBUser;
+import com.meraz.jpatest.backend.DAO.UserDAO;
+import com.meraz.jpatest.backend.model.DBUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
